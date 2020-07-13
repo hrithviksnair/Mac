@@ -1,0 +1,114 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	
+}
+
+table {
+	width: 100%;
+}
+
+
+.jumbotron {
+	overflow: auto;
+	padding-bottom: 0;
+	padding-top: 10px;
+	background-image: url("blueBG.jpg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+  	overflow: auto;
+}
+
+.display-4 {
+	color: rgba(230, 247, 245, 0.9);
+	font-size: 4rem;
+  	font-family: Carme;
+}
+
+.lead {
+	color: rgba(230, 247, 245, 0.9);
+	font-size: 1.3rem;
+  	font-family: Carme;
+  	font-style: italic;
+  	text-decoration: underline;
+  	font-weight: 300;
+}
+
+.formStyle{
+	margin-top: 50px;
+	overflow: auto;
+}
+
+.formText {
+	font-size: 21px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.formLabel {
+	font-size: 15px;
+	margin-left: 10px;
+	display: table-cell;
+	padding: 20px;
+}
+
+.bgStyle {
+	height: 100%;
+	font-family: Carme;
+}
+
+.formCol1 {
+	width: 25%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.formCol2 {
+	width: 75%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.form-control {
+	width: 40%;
+}
+
+.custButton {
+	background-image: url("blueBG.jpg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+  	overflow: auto;
+  	font-size: 15px;
+  	font-family: Carme;
+  	width: 50%;
+  	margin-left: 20px;
+  	margin-top: 20px;
+}
+
+.infoTxt {
+	margin-left: 20px;
+	margin-top:10px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#catOpt {
+
+	margin-left: 10px;
+}
+
+#newRef, #extRef, #pastRef {
+	margin-bottom: 10px;
+}
+
+#reqForm, #goBtn {
+	display: none; 
+}
